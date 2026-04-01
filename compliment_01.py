@@ -3,7 +3,7 @@
 # NAME: Amy Nuessle
 # DATE: March 1, 2026
 # BRIEF DESCRIPTION:  create a program for compliments assignment
-
+# Making corrections missing output line
 
 
 # 1. Make sure you fill out the comments above
@@ -16,7 +16,8 @@
 
 user_input = input("Would you like a compliment? ")
 if user_input == "yes":
-    print("You have wonderful eyes.")         
+    print("You have wonderful eyes.")  
+    print("Thank you for playing.")       
 else:
     print("Thank you for playing.")
 
