@@ -1,9 +1,9 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
-
+# NAME: Amy Nuessle
+# DATE: March 1, 2026
+# BRIEF DESCRIPTION:  create a program for compliments assignment
+# Making corrections missing output line
 
 
 # 1. Make sure you fill out the comments above
@@ -12,13 +12,14 @@
 # 4. The Sample Output has been included in this code for your convenience
 
 
-
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-
-
-
-
+user_input = input("Would you like a compliment? ")
+if user_input == "yes":
+    print("You have wonderful eyes.")  
+    print("Thank you for playing.")       
+else:
+    print("Thank you for playing.")
 
 
 
@@ -65,12 +66,12 @@ Thank you for playing.
 
 '''
 
-1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
+1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab? 7
 
 
 
 
-2. What was the hardest part of this lab?
+2. What was the hardest part of this lab? It took me a few tries to get the input from the user to be acceptable only for lower case.
 
 
 
